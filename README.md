@@ -25,7 +25,7 @@ These are the configuration parameters you could configure for the provider:
 
 The service provider registers the following services which you could use:
 
-- `migrations.em_helper_set`: The Doctrine ORM Entity Manager helper set. It would be registered if you have registered the `orm.em` service supposedly from the `DoctrineServiceProvider.
+- `migrations.em_helper_set`: The Doctrine ORM Entity Manager helper set. It would be registered if you have registered the `orm.em` service supposedly from the `DoctrineServiceProvider`.
 - `migrations.commands`: An array of Symfony command instances. You could use them to add to your own Console application.
 
 
